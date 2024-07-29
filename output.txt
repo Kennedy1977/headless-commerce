@@ -1,0 +1,44 @@
+.
+├── README.md
+├── jsconfig.json
+├── next.config.mjs
+├── output.txt
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── public
+│   ├── next.svg
+│   └── vercel.svg
+├── src
+│   ├── app
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── layout.js
+│   │   └── page.js
+│   ├── components
+│   │   ├── header
+│   │   │   ├── Header.js
+│   │   │   ├── account
+│   │   │   │   └── Account.js
+│   │   │   ├── checkout
+│   │   │   │   └── Checkout.js
+│   │   │   ├── logo
+│   │   │   │   └── Logo.js
+│   │   │   ├── navigation
+│   │   │   │   └── Navigation.js
+│   │   │   ├── search
+│   │   │   │   └── Search.js
+│   │   │   └── shop-nav
+│   │   │       └── ShopNav.js
+│   │   └── index.js
+│   └── pages
+│       ├── _app.js
+│       ├── blog.js
+│       ├── bundles.js
+│       ├── faqs.js
+│       ├── our-story.js
+│       ├── recipes.js
+│       └── shop.js
+└── tailwind.config.js
+
+13 directories, 29 files
