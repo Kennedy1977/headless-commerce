@@ -1,8 +1,6 @@
-import { Mulish } from "next/font/google";
-import { Header } from "@/components";
 import "./globals.css";
-
-const mulish = Mulish({ subsets: ["latin"] });
+import { Header } from "@/components";
+import Footer from "@/components/footer/Footer";
 
 export const metadata = {
   title: "Create Next App",
@@ -11,10 +9,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={mulish.className}>
+    <html lang="en-GB">
+      <body>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
