@@ -1,12 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import ProductImage from "../product-image/ProductImage";
+import ImageAsset from "../image-asset/ImageAsset";
 import { ProductPromo } from "../product-promo/ProductPromo";
 
 const ProductCard = ({ image, description, promotion, price, pricePerKg }) => {
   return (
     <div className="min-w-[260px] max-w-[320px] mx-auto bg-white shadow-lg rounded-lg overflow-hidden text-center">
-      <ProductImage src={image} alt={description} />
+      <ImageAsset src={image} alt={description} />
       <div className="p-4">
         <h4 className="text-xl font-bold mb-2 text-left">{description}</h4>
         <ProductPromo props={promotion} />

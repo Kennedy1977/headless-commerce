@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { useRef } from "react";
 
-const ProductImage = ({ src, alt }) => {
+const ImageAsset = ({ src, alt }) => {
   const imgRef = useRef();
 
   const handleError = () => {
@@ -21,4 +21,4 @@ const ProductImage = ({ src, alt }) => {
   );
 };
 
-export default ProductImage;
+export default ImageAsset;

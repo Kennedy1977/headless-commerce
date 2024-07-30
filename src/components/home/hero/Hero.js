@@ -18,8 +18,8 @@ export default function Hero() {
 
   return (
     <>
-      <section className="mb-16 flex w-full flex-col lg:flex-row py-12 gap-12 place-content-center">
-        <div className="lg:w-5/12">
+      <section className="lg:mb-16 flex w-full flex-col lg:flex-row lg:py-12 gap-12 place-content-center">
+        <div className="lg:w-5/12 px-12 pt-6 lg:px-0">
           <h1 className="text-6xl mulish-400">
             Savour Our Premium Quality Meats...
           </h1>
