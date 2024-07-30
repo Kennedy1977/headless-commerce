@@ -19,7 +19,11 @@ module.exports = {
     },
     extend: {
       fontFamily: { sans: ["Mulish", "Helvetica", "Arial", "sans-serif"] },
-
+      colors: {
+        "promo-blue": "#0066cc",
+        "promo-green": "#009900",
+        "promo-red": "#cc0000",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
