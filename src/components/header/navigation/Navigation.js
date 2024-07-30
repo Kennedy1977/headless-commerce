@@ -13,15 +13,11 @@ function Navigation({ isMenuOpen }) {
     { href: "/recipes/", label: "Recipes" },
     { href: "/our-story/", label: "Our Story" },
     { href: "/blog/", label: "Blog" },
-    { href: "/faqs/", label: "FAQs" },
+    { href: "/faq/", label: "FAQs" },
   ];
 
   const handleNavClick = (item) => {
-    if (item.component) {
-      setActiveNav(item.label === activeNav ? null : item.label);
-    } else {
-      setActiveNav(null);
-    }
+    setActiveNav(item.label === activeNav ? null : item.label);
   };
 
   const renderActiveNav = () => {
@@ -45,15 +41,26 @@ function Navigation({ isMenuOpen }) {
         <ul className="flex flex-col h-full lg:flex-row space-y-3 lg:space-y-0 bg-gray-50 lg:bg-transparent space-x-0 lg:space-x-6 xl:space-x-12 px-12 py-6 lg:px-20 lg:py-0">
           {navItems.map((item) => (
             <li key={item.href} className="relative">
-              <Link
-                href={item.href}
-                className={`hover:underline cursor-pointer ${
-                  pathname === item.href ? "font-bold" : "font-normal"
-                }`}
-                onClick={() => handleNavClick(item)}
-              >
-                {item.label}
-              </Link>
+              {item.component ? (
+                <button
+                  className={`hover:underline cursor-pointer ${
+                    activeNav === item.label ? "font-bold" : "font-normal"
+                  }`}
+                  onClick={() => handleNavClick(item)}
+                >
+                  {item.label}
+                </button>
+              ) : (
+                <Link
+                  href={item.href}
+                  className={`hover:underline cursor-pointer ${
+                    pathname === item.href ? "font-bold" : "font-normal"
+                  }`}
+                  onClick={() => handleNavClick(item)}
+                >
+                  {item.label}
+                </Link>
+              )}
               {/* Render the submenu as a child of the nav item on mobile */}
               {item.label === activeNav && item.component && (
                 <div className="lg:hidden">

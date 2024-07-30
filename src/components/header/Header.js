@@ -6,6 +6,7 @@ import Checkout from "./checkout/Checkout";
 import Logo from "./logo/Logo";
 import Navigation from "./navigation/Navigation";
 import Search from "./search/Search";
+import Link from "next/link";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,7 +17,10 @@ function Header() {
 
   return (
     <header className="flex items-center justify-between bg-gray-100 px-12 h-16">
-      <Logo />
+      <Link href="/" className="flex items-center">
+        <Logo />
+        <span className="px-4 font-extrabold">EDMUND HOWDLE</span>
+      </Link>
       <Navigation isMenuOpen={isMenuOpen} />
       <div className="flex items-center space-x-4">
         <Search />
