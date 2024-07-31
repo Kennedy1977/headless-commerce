@@ -24,7 +24,9 @@ module.exports = {
         "promo-green": "#009900",
         "promo-red": "#cc0000",
       },
+
       backgroundImage: {
+        "footer-pattern": "url('/background.webp')",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",

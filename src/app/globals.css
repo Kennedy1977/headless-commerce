@@ -101,3 +101,13 @@ body {
   font-weight: 1000;
   font-style: normal;
 }
+
+.image-mask {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  mask-image: url("/mask.webp");
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  filter: hue-rotate(-160deg);
+}
