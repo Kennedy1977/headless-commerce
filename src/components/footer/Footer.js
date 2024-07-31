@@ -5,7 +5,7 @@ import Social from "../ui/social/Social";
 
 function Footer() {
   return (
-    <footer className="bg-gray-800 text-white py-10">
+    <footer className="bg-gray-900 text-white py-10">
       <div className="px-12">
         <div className="flex flex-col lg:flex-row justify-between flex-wrap space-y-8 lg:space-y-0">
           {/* Contact Information */}

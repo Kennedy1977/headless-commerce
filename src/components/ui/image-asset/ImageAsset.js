@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { useRef } from "react";
 
-const ImageAsset = ({ src, alt }) => {
+const ImageAsset = ({ src, alt, constrain }) => {
   const imgRef = useRef();
 
   const handleError = () => {
@@ -11,7 +11,7 @@ const ImageAsset = ({ src, alt }) => {
   return (
     <img
       ref={imgRef}
-      className="w-full h-48 object-cover rounded-t-lg"
+      className={`w-full object-cover rounded-t-lg ${constrain && "h-48"}`}
       src={src}
       alt={alt}
       onError={() => handleError()}

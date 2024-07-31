@@ -18,7 +18,7 @@ function Header() {
   return (
     <header className="flex items-center justify-between bg-gray-100 px-12 h-16">
       <Link href="/" className="flex items-center">
-        <Logo />
+        <span className="w-8 h-8"><Logo /></span>
         <span className="px-4 font-extrabold">EDMUND HOWDLE</span>
       </Link>
       <Navigation isMenuOpen={isMenuOpen} />

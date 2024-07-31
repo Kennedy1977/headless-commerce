@@ -141,15 +141,15 @@ export default function OurStory() {
           </h2>
           <blockquote className="border-l-4 border-gray-500 pl-4 mb-8 text-gray-700">
             <p className="italic">
-              "The best butcher in the West Midlands! Quality meats at great
-              prices."
+              &lquote;The best butcher in the West Midlands! Quality meats at
+              great prices.&rquote;
             </p>
             <footer>- Sarah, Birmingham</footer>
           </blockquote>
           <blockquote className="border-l-4 border-gray-500 pl-4 text-gray-700">
             <p className="italic">
-              "Edmund Howdle Butchers never disappoints. Their service and
-              produce are top-notch."
+              &lquote;Edmund Howdle Butchers never disappoints. Their service
+              and produce are top-notch.&rquote;
             </p>
             <footer>- Mark, Wolverhampton</footer>
           </blockquote>
