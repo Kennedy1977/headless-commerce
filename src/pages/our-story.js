@@ -3,9 +3,9 @@ import Link from "next/link";
 export default function OurStory() {
   return (
     <>
-      <article className="max-w-screen-xl mx-auto px-12 py-16 text-lg leading-relaxed bg-gray-50 rounded-lg shadow-md">
+      <article className="max-w-screen-xl sm:mx-auto p-0 sm:px-12 sm:py-16 text-lg leading-relaxed">
         <header className="mb-12">
-          <h1 className="text-5xl font-bold mb-6 text-gray-800">
+          <h1 className="text-center sm:text-left text-5xl font-bold mb-6 text-gray-800">
             Welcome to Edmund Howdle Butchers
           </h1>
           <p className="text-gray-700">

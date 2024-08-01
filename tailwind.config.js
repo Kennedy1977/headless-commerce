@@ -9,7 +9,7 @@ module.exports = {
     fontWeight: {
       extralight: "200",
       light: "300",
-      regualr: "400",
+      regular: "400",
       medium: "500",
       semibold: "600",
       bold: "700",
@@ -33,6 +33,17 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities(
+        {
+          ".initial": {
+            display: "initial",
+          },
+        },
+        ["responsive"]
+      );
+    },
+  ],
   darkMode: "class",
 };

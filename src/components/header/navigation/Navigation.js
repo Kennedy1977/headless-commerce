@@ -3,7 +3,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import ShopNav from "../shop-nav/ShopNav";
 
-function Navigation({ isMenuOpen }) {
+function Navigation({ isMenuOpen, setIsMenuOpen }) {
   const pathname = usePathname();
   const [activeNav, setActiveNav] = useState(null);
 
@@ -18,6 +18,9 @@ function Navigation({ isMenuOpen }) {
 
   const handleNavClick = (item) => {
     setActiveNav(item.label === activeNav ? null : item.label);
+    if (!item.component) {
+      setIsMenuOpen(false); // Close menu on link click
+    }
   };
 
   const renderActiveNav = () => {

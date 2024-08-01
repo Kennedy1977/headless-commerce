@@ -31,16 +31,18 @@ const products = [
   },
 ];
 
-function BestSellers() {
+function BestSellers({ heading, background, width = "450" }) {
   return (
-    <section className="py-16  bg-orange-100">
+    <section className={`px-4 py-16 ${background}`}>
       <div className="flex w-full flex-row lg:flex-row place-content-center">
-        <h2 className="text-4xl/normal mulish-500 max-w-[450px] mb-12">
-          Experience the Excellence of Our Top-Selling Meats
+        <h2
+          className={`text-center font-extralight text-4xl/normal mb-12 max-w-[${width}px]`}
+        >
+          {heading}
         </h2>
       </div>
       <div className="px-12 lg:px-24 xl:px-48">
-        <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12 sm:gap-6">
           {products.map((product, index) => (
             <ProductCard
               key={index}

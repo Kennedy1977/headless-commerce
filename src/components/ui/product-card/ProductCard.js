@@ -5,7 +5,7 @@ import { ProductPromo } from "../product-promo/ProductPromo";
 
 const ProductCard = ({ image, description, promotion, price, pricePerKg }) => {
   return (
-    <div className="min-w-[260px] max-w-[320px] mx-auto bg-white shadow-lg rounded-lg overflow-hidden text-center">
+    <div className="min-w-[260px] max-w-[320px] mx-auto bg-white shadow-xl rounded-lg overflow-hidden text-center">
       <ImageAsset src={image} alt={description} constrain={true} />
       <div className="p-4">
         <h4 className="text-xl font-bold mb-2 text-left">{description}</h4>

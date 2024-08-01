@@ -16,12 +16,16 @@ function Header() {
   };
 
   return (
-    <header className="flex items-center justify-between bg-gray-100 px-12 h-16">
-      <Link href="/" className="flex items-center">
-        <span className="w-8 h-8"><Logo /></span>
-        <span className="px-4 font-extrabold">EDMUND HOWDLE</span>
+    <header className="sticky top-0 z-10 shadow-md flex items-center justify-between bg-gray-100 px-4 sm:px-12 h-16">
+      <Link href="/" className="flex pr-4 sm:pr-0 items-center">
+        <span className="w-8 h-8">
+          <Logo />
+        </span>
+        <span className="hidden sm:inline px-4 font-extrabold">
+          EDMUND HOWDLE
+        </span>
       </Link>
-      <Navigation isMenuOpen={isMenuOpen} />
+      <Navigation isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
       <div className="flex items-center space-x-4">
         <Search />
         <Account />

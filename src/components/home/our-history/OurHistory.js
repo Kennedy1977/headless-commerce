@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button/Button";
 function OurHistory() {
   return (
     <>
-      <section className="py-16 bg-slate-800 px-8 md:px-12 lg:px-16 text-white xl:min-h-[768px]">
+      <section className="py-8 sm:py-16 bg-slate-800 px-4 sm:px-8 md:px-12 lg:px-16 text-white xl:min-h-[768px]">
         <div className="flex w-full flex-col lg:flex-row gap-8 lg:gap-16 place-content-start">
           <div className="w-full lg:w-6/12 image-mask opacity-70 order-last lg:order-first">
             <ImageAsset
@@ -12,8 +12,8 @@ function OurHistory() {
               alt="1935 butchers in old-fashioned shop with hanging meats and tools"
             />
           </div>
-          <div className="mt-8 w-full lg:w-5/12 xl:w-6/12 flex flex-col justify-start lg:max-h-96 xl:max-h-fit overflow-y-auto">
-            <h2 className="text-5xl font-extralight mb-6">
+          <div className="mt-8 w-full lg:w-5/12 xl:w-6/12 flex flex-col justify-start lg:max-h-96 xl:max-h-fit sm:overflow-y-auto">
+            <h2 className="text-center sm:text-left text-5xl font-extralight mb-6">
               Our history and values...
             </h2>
             <p className="text-lg leading-relaxed mb-6 font-medium">
