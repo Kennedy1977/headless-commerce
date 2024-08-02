@@ -48,4 +48,4 @@ jobs:
           HOSTINGER_FTP_PASSWORD: ${{ secrets.HOSTINGER_FTP_PASSWORD }}
         run: |
           sudo apt-get update && sudo apt-get install -y lftp
-          lftp -e "set ssl:verify-certificate no; mirror -R build /path-to-deploy; exit" -u $HOSTINGER_FTP_USERNAME,$HOSTINGER_FTP_PASSWORD $HOSTINGER_FTP_SERVER
+          lftp -e "set ssl:verify-certificate no; mirror -R build /; exit" -u $HOSTINGER_FTP_USERNAME,$HOSTINGER_FTP_PASSWORD $HOSTINGER_FTP_SERVER
