@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 // pages/recipes/[recipe].js
 import { useRouter } from "next/router";
-import BestSellers from "@/components/home/best-sellers/BestSellers";
+import FeaturedProducts from "@/components/home/featured-products/FeaturedProducts";
 
 const RecipeDetail = () => {
   const router = useRouter();
@@ -185,7 +185,10 @@ const RecipeDetail = () => {
           </section>
         </div>
       </article>
-      <BestSellers heading="Add ingredients to basket" background="bg-white" />
+      <FeaturedProducts
+        heading="Add ingredients to basket"
+        background="bg-white"
+      />
     </>
   );
 };

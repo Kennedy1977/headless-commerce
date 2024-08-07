@@ -31,7 +31,7 @@ const products = [
   },
 ];
 
-function BestSellers({ heading, background, width = "450" }) {
+function FeaturedProducts({ heading, background, width = "450" }) {
   return (
     <section className={`px-4 py-16 ${background}`}>
       <div className="flex w-full flex-row lg:flex-row place-content-center">
@@ -59,4 +59,4 @@ function BestSellers({ heading, background, width = "450" }) {
   );
 }
 
-export default BestSellers;
+export default FeaturedProducts;

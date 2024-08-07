@@ -1,5 +1,5 @@
 "use client";
-import BestSellers from "@/components/home/best-sellers/BestSellers";
+import FeaturedProducts from "@/components/home/featured-products/FeaturedProducts";
 import Hero from "@/components/home/hero/Hero";
 import OurHistory from "@/components/home/our-history/OurHistory";
 import CustomerReview from "../components/home/customer-review/CustomerReview";
@@ -10,13 +10,13 @@ export default function Home() {
     <>
       <main>
         <Hero className="p-4 sm:p-12" />
-        <BestSellers
+        <FeaturedProducts
           heading="Experience the Excellence of Our Top-Selling Meats"
           background="bg-[#e0d0c6]"
         />
         <OurHistory />
         <CustomerReview />
-        <BestSellers
+        <FeaturedProducts
           heading="Discover the Delight
 of Our Specialty Meats"
           background="bg-white"
