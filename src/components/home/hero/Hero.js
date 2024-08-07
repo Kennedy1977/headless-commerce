@@ -23,7 +23,7 @@ export default function Hero() {
           <h1 className="text-center sm:text-left text-6xl font-light">
             Savour Our Premium Quality Meats...
           </h1>
-          <p className="text-3xl mt-10 mulish-300">
+          <p className="text-3xl mt-10 font-light">
             Welcome to Edmund Howdle Butchers, where heritage meets quality. We
             offer the finest cuts of meat, sourced from trusted farms and
             prepared with care. Experience the difference dedication brings to
