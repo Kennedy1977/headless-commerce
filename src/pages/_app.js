@@ -7,8 +7,8 @@ import LoginPrompt from "../components/login-prompt/LoginPrompt";
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <LoginPrompt />
       <Header />
+      <LoginPrompt />
       <main className="p-4 sm:p-12">
         <Breadcrumb />
         <Component {...pageProps} />
