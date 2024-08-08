@@ -10,8 +10,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en-GB">
       <body>
-        <LoginPrompt />
         <Header />
+        <LoginPrompt />
         {children}
         <Footer />
       </body>
