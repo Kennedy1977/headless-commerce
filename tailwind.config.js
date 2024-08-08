@@ -21,7 +21,7 @@ module.exports = {
       fontFamily: { sans: ["Mulish", "Helvetica", "Arial", "sans-serif"] },
       colors: {
         "promo-blue": "#0066cc",
-        "promo-green": "#009900",
+        "promo-green": "#008000",
         "promo-red": "#cc0000",
       },
 

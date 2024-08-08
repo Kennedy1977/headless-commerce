@@ -8,7 +8,7 @@ const ProductCard = ({ image, description, promotion, price, pricePerKg }) => {
     <div className="min-w-[260px] max-w-[320px] mx-auto bg-white shadow-xl rounded-lg overflow-hidden text-center">
       <ImageAsset src={image} alt={description} constrain={true} />
       <div className="p-4">
-        <h4 className="text-xl font-bold mb-2 text-left">{description}</h4>
+        <h3 className="text-xl font-bold mb-2 text-left">{description}</h3>
         <ProductPromo props={promotion} />
         <div className="text-2xl font-bold text-gray-900">{price}</div>
         <div className="text-gray-600 text-sm">({pricePerKg})</div>

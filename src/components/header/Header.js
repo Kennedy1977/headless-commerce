@@ -31,7 +31,11 @@ function Header() {
         <Account />
         <Checkout />
       </div>
-      <button className="block lg:hidden p-2" onClick={toggleMenu}>
+      <button
+        className="block lg:hidden p-2"
+        onClick={toggleMenu}
+        aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+      >
         {isMenuOpen ? (
           <XMarkIcon className="w-6 h-6" />
         ) : (

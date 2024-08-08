@@ -68,7 +68,7 @@ const RecipeDetail = () => {
           </div>
           <section className="mb-12">
             <h3 className="text-2xl font-light mb-4">Ingredients</h3>
-            <h4 className="text-xl font-light mb-2">For the pastry</h4>
+            <h3 className="text-xl font-light mb-2">For the pastry</h3>
             <ul className="list-disc list-inside mb-4">
               <li>100g/3½oz salted butter, cut into cubes and frozen</li>
               <li>100g/3½oz lard, cut into cubes and frozen</li>
@@ -76,9 +76,9 @@ const RecipeDetail = () => {
               <li>½ tsp salt</li>
               <li>1 tbsp lemon juice</li>
             </ul>
-            <h4 className="text-xl font-light mb-2">
+            <h3 className="text-xl font-light mb-2">
               For the mushroom duxelle
-            </h4>
+            </h3>
             <ul className="list-disc list-inside mb-4">
               <li>
                 Garlic-infused oil (available from most large supermarkets), for
@@ -96,7 +96,7 @@ const RecipeDetail = () => {
               <li>1 tsp sea salt</li>
               <li>Cracked black pepper</li>
             </ul>
-            <h4 className="text-xl font-light mb-2">For the beef</h4>
+            <h3 className="text-xl font-light mb-2">For the beef</h3>
             <ul className="list-disc list-inside mb-4">
               <li>6x80g/3oz pieces fillet steak</li>
               <li>6 slices prosciutto ham</li>
@@ -107,7 +107,7 @@ const RecipeDetail = () => {
 
           <section>
             <h3 className="text-2xl font-light mb-4">Method</h3>
-            <h4 className="text-xl font-light mb-2">For the pastry</h4>
+            <h3 className="text-xl font-light mb-2">For the pastry</h3>
             <ol className="list-decimal list-inside mb-4">
               <li>
                 Mix together the butter, lard, flour, and salt in a food
@@ -124,9 +124,9 @@ const RecipeDetail = () => {
               </li>
             </ol>
 
-            <h4 className="text-xl font-light mb-2">
+            <h3 className="text-xl font-light mb-2">
               For the mushroom duxelle
-            </h4>
+            </h3>
             <ol className="list-decimal list-inside mb-4">
               <li>
                 Heat a little of the garlic oil in a frying pan. Add the garlic
@@ -147,7 +147,7 @@ const RecipeDetail = () => {
               </li>
             </ol>
 
-            <h4 className="text-xl font-light mb-2">For the beef</h4>
+            <h3 className="text-xl font-light mb-2">For the beef</h3>
             <ol className="list-decimal list-inside mb-4">
               <li>
                 Heat a heavy-based frying pan over medium–high heat. When the
@@ -160,7 +160,7 @@ const RecipeDetail = () => {
               </li>
             </ol>
 
-            <h4 className="text-xl font-light mb-2">Final steps</h4>
+            <h3 className="text-xl font-light mb-2">Final steps</h3>
             <ol className="list-decimal list-inside mb-4">
               <li>
                 For the pastry, repeat the rolling and folding process one final
