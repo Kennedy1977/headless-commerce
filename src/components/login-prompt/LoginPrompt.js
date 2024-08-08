@@ -53,11 +53,11 @@ const LoginPrompt = () => {
       aria-labelledby="login-prompt-title"
       aria-live="assertive"
       aria-modal="true"
-      className="w-full bg-white shadow-md py-3 px-4 flex items-center justify-center"
+      className="w-full bg-black shadow-md py-3 px-4 flex items-center justify-center"
       onKeyDown={handleKeyDown}
       ref={dialogRef}
     >
-      <p id="login-prompt-title" className="text-lg text-black">
+      <p id="login-prompt-title" className="text-lg text-white">
         <span className="font-bold">Login</span> or{" "}
         <span className="font-bold">Register</span> for a more personalised
         shopping experience
@@ -65,7 +65,7 @@ const LoginPrompt = () => {
       <button
         onClick={handleClose}
         aria-label="Close login or register prompt"
-        className="ml-4 text-black hover:text-gray-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-gray-50 flex items-center justify-center w-12 h-12"
+        className="ml-4 text-white hover:text-gray-200 focus:outline-none flex items-center justify-center w-12 h-12"
         ref={closeButtonRef}
       >
         <XMarkIcon className="h-6 w-6" />

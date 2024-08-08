@@ -37,7 +37,7 @@ function Navigation({ isMenuOpen, setIsMenuOpen }) {
       <nav
         className={`lg:flex ${
           isMenuOpen
-            ? "block bg-white w-full h-full left-0 top-16 fixed z-50"
+            ? "block bg-white w-full h-dvh left-0 top-16 absolute z-50"
             : "hidden"
         } `}
       >
