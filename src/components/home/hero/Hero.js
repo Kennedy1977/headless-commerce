@@ -1,20 +1,10 @@
 "use client";
 import { Button } from "@/components/ui/button/Button";
-import React, { useEffect, useRef } from "react";
+import React from "react";
+import HeroVideo from "@/components/home/hero-video/HeroVideo";
 
 export default function Hero() {
   const hero = Math.floor(Math.random() * 5) + 1;
-  const videoRef = useRef(null);
-
-  useEffect(() => {
-    const video = videoRef.current;
-    if (video) {
-      video.muted = true; // Mute the video to comply with autoplay policies
-      video.play().catch((error) => {
-        console.error("Failed to autoplay video:", error);
-      });
-    }
-  }, [hero]);
 
   return (
     <>
@@ -34,17 +24,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="lg:w-5/12">
-          <video
-            ref={videoRef}
-            className="w-full lg:w-550px h-auto rounded-md"
-            loop
-            muted
-            preload="auto"
-            autoPlay
-          >
-            <source src={`/hero-${hero}.mp4`} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+          <HeroVideo hero={hero} />
         </div>
       </section>
     </>
