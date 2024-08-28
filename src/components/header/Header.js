@@ -22,7 +22,7 @@ function Header() {
           <Logo />
         </span>
         <span className="hidden sm:inline px-4 font-extrabold">
-          EDMUND HOWDLE
+          The Family Butcher
         </span>
       </Link>
       <Navigation isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
