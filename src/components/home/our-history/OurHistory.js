@@ -17,10 +17,10 @@ function OurHistory() {
               Our history and values...
             </h2>
             <p className="text-lg leading-relaxed mb-6 font-medium">
-              Established in 1935, Edmund Howdle Butchers is a family-run
-              business that takes pride in upholding traditional values while
-              serving the finest quality meats to our valued customers at
-              exceptional prices.
+              Established in 1935, The Family Butcher is a family-run business
+              that takes pride in upholding traditional values while serving the
+              finest quality meats to our valued customers at exceptional
+              prices.
             </p>
             <p className="text-lg leading-relaxed mb-6 font-medium">
               Based in the village of Clayhanger, Brownhills near Walsall, we
@@ -38,7 +38,7 @@ function OurHistory() {
               including Birmingham, Walsall, Wolverhampton, and Stafford.
             </p>
             <p className="text-lg leading-relaxed font-medium">
-              Discover the finest meats at Edmund Howdle Butchers and taste the
+              Discover the finest meats at The Family Butcher and taste the
               difference that tradition and quality make. Visit us in
               Clayhanger, Brownhills, or contact us to learn more about our
               products and services.

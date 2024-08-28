@@ -15,7 +15,7 @@ function Footer() {
               <span className="w-16 h-16">
                 <Logo />
               </span>
-              <span>Edmund Howdle Butchers</span>
+              <span>The Family Butcher</span>
             </h3>
             <p className="mb-2 flex items-center">
               <PhoneIcon className="w-5 h-5 mr-2" />
@@ -23,7 +23,7 @@ function Footer() {
                 href="mailto:sales@edmundhowdle.co.uk"
                 className="hover:underline"
               >
-                01543 375046
+                confirm telephone???
               </Link>
             </p>
             <p className="mb-2 flex items-center">
@@ -35,9 +35,7 @@ function Footer() {
                 sales@edmundhowdle.co.uk
               </Link>
             </p>
-            <address className="not-italic">
-              38 High St, Clayhanger, Walsall WS8 7EA, UK
-            </address>
+            <address className="not-italic">confirm address???</address>
           </div>
 
           {/* Quick Links */}
@@ -101,8 +99,8 @@ function Footer() {
           {/* Legal Information */}
           <div className="flex flex-col gap-4 text-center lg:text-right text-gray-400">
             <p>
-              &copy; {new Date().getFullYear()} Howdles Family Butchers Ltd
-              (15259645), All rights reserved.
+              &copy; {new Date().getFullYear()} The Family Butchers &copy;2024,
+              All rights reserved.
             </p>
             <p>
               <Link href="/privacy-policy" className="hover:underline">

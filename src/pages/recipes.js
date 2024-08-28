@@ -57,16 +57,15 @@ export default function Recipes() {
           Recipes
         </h2>
         <p className="text-xl/relaxed font-light mb-8">
-          At Edmund Howdle Butchers, we believe that the secret to exceptional
-          meals lies not just in premium quality meats, but also in the art of
-          cooking and presentation. Our passion for excellence extends beyond
-          providing the finest cuts; we are here to inspire your culinary
-          adventures with delicious and easy-to-follow recipes. Whether you are
-          planning a family BBQ, a cozy Sunday roast, or a festive gathering,
-          our curated recipes cater to various cuts of meat and occasions,
-          ensuring you create unforgettable dining experiences. Dive into our
-          collection and discover new ways to cook and savor our exquisite
-          meats.
+          At The Family Butcher, we believe that the secret to exceptional meals
+          lies not just in premium quality meats, but also in the art of cooking
+          and presentation. Our passion for excellence extends beyond providing
+          the finest cuts; we are here to inspire your culinary adventures with
+          delicious and easy-to-follow recipes. Whether you are planning a
+          family BBQ, a cozy Sunday roast, or a festive gathering, our curated
+          recipes cater to various cuts of meat and occasions, ensuring you
+          create unforgettable dining experiences. Dive into our collection and
+          discover new ways to cook and savor our exquisite meats.
         </p>
         <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
           {recipes.map((recipe, index) => (

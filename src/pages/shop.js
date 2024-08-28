@@ -17,15 +17,15 @@ export default function Shop() {
               Welcome to Our Shop
             </h2>
             <p className="text-center mt-4 text-lg max-w-[768px] mx-auto">
-              Welcome to Edmund Howdle Butchers! Since 1935, we have been a
+              Welcome to The Family Butcher! Since 1935, we have been a
               cherished part of the community, providing top-quality meats that
               you can trust. Our selection includes the finest lamb, pork, beef,
-              chicken, and more, perfect for any meal or occasion. Whether
-              you are planning a cozy family dinner or a festive celebration,
-              you will find the perfect cut here. Our commitment to excellence
-              means you always get the best. Come and experience the warmth and
-              tradition of Edmund Howdle Butchers - where quality meats meet
-              genuine service.
+              chicken, and more, perfect for any meal or occasion. Whether you
+              are planning a cozy family dinner or a festive celebration, you
+              will find the perfect cut here. Our commitment to excellence means
+              you always get the best. Come and experience the warmth and
+              tradition of The Family Butcher - where quality meats meet genuine
+              service.
             </p>
             <div className="mt-8 flex justify-center space-x-4">
               <Link href="/shop/category1">

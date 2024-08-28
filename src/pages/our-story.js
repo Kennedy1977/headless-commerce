@@ -6,10 +6,10 @@ export default function OurStory() {
       <article className="max-w-screen-xl sm:mx-auto p-0 sm:px-12 sm:py-16 text-lg leading-relaxed">
         <header className="mb-12">
           <h1 className="text-center sm:text-left text-5xl font-bold mb-6 text-gray-800">
-            Welcome to Edmund Howdle Butchers
+            Welcome to The Family Butcher
           </h1>
           <p className="text-gray-700">
-            Established in 1935, Edmund Howdle Butchers is a family-run business
+            Established in 1935, The Family Butcher is a family-run business
             that takes pride in upholding traditional values while serving the
             finest quality meats to our valued customers at exceptional prices.
           </p>
@@ -17,7 +17,7 @@ export default function OurStory() {
 
         <section className="mb-12">
           <h2 className="text-3xl font-bold mb-6 text-gray-800">
-            Why Choose Edmund Howdle Butchers?
+            Why Choose The Family Butcher?
           </h2>
           <ul className="list-disc list-inside text-gray-700 space-y-4">
             <li>
@@ -148,8 +148,8 @@ export default function OurStory() {
           </blockquote>
           <blockquote className="border-l-4 border-gray-500 pl-4 text-gray-700">
             <p className="italic">
-              &lquote;Edmund Howdle Butchers never disappoints. Their service
-              and produce are top-notch.&rquote;
+              &lquote;The Family Butcher never disappoints. Their service and
+              produce are top-notch.&rquote;
             </p>
             <footer>- Mark, Wolverhampton</footer>
           </blockquote>
@@ -203,8 +203,7 @@ export default function OurStory() {
 
         <footer className="text-center text-gray-600 mt-12">
           <p>
-            Edmund Howdle Butchers - Proudly serving the West Midlands since
-            1935.
+            The Family Butcher - Proudly serving the West Midlands since 1935.
           </p>
         </footer>
       </article>

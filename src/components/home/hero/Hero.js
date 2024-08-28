@@ -14,7 +14,7 @@ export default function Hero() {
             Savour Our Premium Quality Meats...
           </h1>
           <p className="text-3xl mt-10 font-light">
-            Welcome to Edmund Howdle Butchers, where heritage meets quality. We
+            Welcome to The Family Butcher, where heritage meets quality. We
             offer the finest cuts of meat, sourced from trusted farms and
             prepared with care. Experience the difference dedication brings to
             your table.

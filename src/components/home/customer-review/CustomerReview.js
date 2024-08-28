@@ -7,7 +7,7 @@ const CustomerReview = () => {
       name: "John Doe",
       image: "john.webp",
       review:
-        "Absolutely the best leg of lamb I've ever tasted! The quality and flavour are unmatched. I highly recommend Edmund Howdle Butchers.",
+        "Absolutely the best leg of lamb I've ever tasted! The quality and flavour are unmatched. I highly recommend The Family Butcher.",
       rating: 5,
     },
     {
@@ -21,7 +21,7 @@ const CustomerReview = () => {
       name: "Alex Brown",
       image: "alex.webp",
       review:
-        "Brilliant quality and superb taste. Their filet mignon is exceptional, with attention to detail in every cut. Love Edmund Howdle Butchers!",
+        "Brilliant quality and superb taste. Their filet mignon is exceptional, with attention to detail in every cut. Love The Family Butcher!",
       rating: 5,
     },
   ];
